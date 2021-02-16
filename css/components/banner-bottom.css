@@ -1,0 +1,31 @@
+.banner-bottom {
+	background-color: #96BB7C;
+	color: white;
+	padding:5px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.cards-bottom {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-bottom {
+	padding: 0px 5px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis: auto;
+	flex-grow: 1;
+}
+
+.banner-bottom a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s ease;
+}
+
+.banner-bottom a:hover {
+	text-decoration: underline;
+}

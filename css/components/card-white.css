@@ -1,0 +1,35 @@
+.corps {
+	padding: 50px 0px;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card-white ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.card-white a {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+	transition: color 0.3s ease;
+	background-color: rgba(150,187,124,0.6);
+}
+
+.card-white a:hover {
+	text-decoration: underline;
+}
+
+#image-valeurs {
+	width: 200px;
+	border-radius: 6px;
+	height: auto;
+}
